@@ -6,7 +6,7 @@ import ViewApplicant from './components/ViewApplicant';
 function App() {
   return (
     <div>
-      <h1 className="text-center">Hostel Application System</h1>
+      <h1 className="text-center">Hostel Application System - SP19-BCS-012</h1>
       <Navbar />
       <Routes>
         <Route path="/hostelApplicants" element={<AddApplicant />} />
