@@ -17,6 +17,7 @@ const AddApplicant = () => {
     const addDetails = async (e) => {
       e.preventDefault();
       await addApplicant(applicantData);
+      window.location = '/hostelApplicants';
     }
 
     return (

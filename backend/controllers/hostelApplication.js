@@ -9,6 +9,7 @@ export const getApplications = async (req, res) => {
     }
 };
 
+
 export const createApplication = async (req, res) => {
     const studentName = req.body.studentName;
     const studentNameInStringFormat = studentName.toString();
